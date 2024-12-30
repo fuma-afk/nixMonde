@@ -1,0 +1,21 @@
+{ inputs, pkgs, config, ...}: {
+
+services.hyprpaper = {
+    enable = true;
+    settings = {
+ #     ipc = "on";
+ #     splash = false;
+      preload = [
+        "~/Immagini/wallpapers/shaded_landscape.png"
+	"~/Immagini/wallpapers/lofiwallpaper.png"
+	"~/Immagini/wallpapers/blue.png"
+      ];
+
+      wallpaper = [
+	"DP-1,~/Immagini/wallpapers/shaded_landscape.png"
+        "DP-2,~/Immagini/wallpapers/blue.png"
+	"HDMI-A-1,~/Immagini/wallpapers/lofiwallpaper.png"
+      ];
+    };
+  };
+}
