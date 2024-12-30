@@ -1,0 +1,47 @@
+{
+    "custom/quicklink1": {
+        "format": "",
+        "on-click": "zen",
+        "tooltip-format": "Open Zen Browser"
+    }, 
+    "custom/quicklink2": {
+        "format": "",
+        "on-click": "firefox",
+        "tooltip-format": "Open Firefox"
+    },
+    "custom/quicklink3": {
+        "format": "",
+        "on-click": "nemo",
+        "tooltip-format": "Open filemanager"
+    }, 
+    "custom/quicklink4": {
+        "format": "",
+        "on-click": "thunderbird",
+        "tooltip-format": "Open Thunderbird"
+    }, 
+    "custom/quicklink5": {
+        "format": "",
+        "on-click": "qalculate-gtk",
+        "tooltip-format": "Open calculator"
+    }, 
+    "custom/quicklink6": {
+        "format": "",
+        "on-click": "smile",
+        "tooltip-format": "Open emoji picker"
+    }, 
+    "custom/quicklinkempty": {
+    }, 
+    "group/quicklinks": {
+        "orientation": "horizontal",
+        "modules": [
+            "custom/quicklink1",
+            "custom/quicklink4",
+            "custom/quicklink3",
+            "custom/quicklink5",
+            /*
+            "custom/quicklink4",
+            */
+            "custom/quicklinkempty"
+        ]
+    }
+}
