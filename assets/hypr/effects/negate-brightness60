@@ -1,0 +1,3 @@
+magick $wallpaper -negate $used_wallpaper
+magick $used_wallpaper -brightness-contrast -40% $used_wallpaper
+
